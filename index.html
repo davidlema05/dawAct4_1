@@ -1,15 +1,77 @@
-<h1> Modulos de Desarrollo de Aplicaciones Web</h1>
-<ul>
-    <li> Desarrollo Web en Entorno Cliente  </li>
-    <li> Desarrollo Web en Entorno Servidor </li>
-    <li> Despliegue de Aplicaciones Web</li>
-    <li> Introducción a la nube pública</li>
-    <li> Diseño de interfaces</li>
-    <li> Proyecto Intermodular</li>	
-    <li> Digitalización</li>
-    <li> Proyecto Intermodular</li>
-    <li> IPE, FOL o Empresas </li>
-    <li> Orientacion </li>	
-    <li> IPE, FOL o Empresas </li>	
-    <li> Prácticas en empresa</li>
-</ul>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi página DAW</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi página web DAW</h1>
+        <p>Mi proyecto de Desarrollo de Aplicaciones Web</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenido a mi página web</h2>
+
+            <p>
+                Esta página forma parte de la actividad 1.4
+                de GitHub y GitHub Pages.
+            </p>
+
+            <img src="images/daw.png" alt="Desarrollo web">
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologías utilizadas</h2>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>GitHub</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Prueba de JavaScript</h2>
+
+            <button onclick="mostrarMensaje()">
+                Pulsa aquí
+            </button>
+
+            <p id="mensaje"></p>
+        </section>
+
+        <section id="contacto">
+            <h2>Otros archivos</h2>
+
+            <a href="ejemplo.php">
+                Abrir archivo PHP
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Actividad 1.4 - GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
